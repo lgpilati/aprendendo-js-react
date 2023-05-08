@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-us {
+    background-image: linear-gradient(
+        to right, #2ad1f8, #8a58b9
+    );
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form {
+    padding: 40px;
+}
+
+.inputField {
+    padding: 10px;
+}
+
+.inputField label {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 0.25rem
+}
+
+.inputField input {
+    width: 320px;
+    padding: 10px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.error {
+    font-size: 18px;
+    color:red;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+hr {
+    background-image: linear-gradient(
+        to right, #2ad1f8, #8a58b9
+    );
+    margin: 30px 0;
+    height: 1px;
+    border: none;
+}
+
+button {
+    padding: 8px 25px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid #2ad1f8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover {
+    background-image: linear-gradient(
+        to right, #2ad1f8, #8a58b9
+    );
+    border: 1px solid #fff;
+    color: white;
+    transition: all 0.5s;
+}
+
+.error-hidden {
+    display: none;
+}
+
+.thanks {
+    padding: 40px;
+    text-align: center;
+}

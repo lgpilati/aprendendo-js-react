@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Form-Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="contact-us">
+      <h1>Fale Conosco</h1>
+      <p>Deixe sua mensagem abaixo, ficaremos feliz em receber seu contato!</p>
+    </div>
+
+    <form action="">
+      <div class="inputField">
+        <label for="">Nome Completo:</label>
+          <input name="name" class="" placeholder="Digite seu Nome..." />
+          <p class="error error-hidden">Campo nome é obrigatório</p>
+      </div>
+
+      <div class="inputField">
+        <label for="">E-mail:</label>
+          <input name="email" class="" placeholder="Digite seu melhor e-mail..." />
+          <p class="error error-hidden">Campo E-mail é obrigatório</p>
+      </div>
+
+      <hr/>
+      <button>Enviar</button>
+    </form>
+    <div class="thanks error-hidden">
+       <h2>Obrigado pelo seu contato!</h2>
+    </div>
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
